@@ -30,3 +30,6 @@
   .DONE {
     background: var(--COLOR-DONE);
   }
+  .deleteTask{
+    cursor:pointer;
+  }
