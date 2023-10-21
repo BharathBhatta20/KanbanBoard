@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import './Task.css';
 import { useStore } from '../store';
 import trashIcon from '../assets/trash.svg'
+import React from 'react';
 
 export default function Task({ title }){
     const task = useStore(store => store.tasks.find(task => task.title === title))

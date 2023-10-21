@@ -3,6 +3,7 @@ import { useStore } from "../store";
 import "./Column.css";
 import Task from "./Task";
 import { useState } from "react";
+import React from 'react';
 
 export default function Column({ state }) {
   const [text, setText] = useState("");

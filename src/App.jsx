@@ -1,5 +1,6 @@
 import './App.css'
 import Column from './components/Column';
+import React from 'react';
 
 function App() {
   return (
